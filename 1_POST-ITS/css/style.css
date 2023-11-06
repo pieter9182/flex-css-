@@ -1,0 +1,99 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #2f86a6;
+    font-family: 'Nerko One', cursive;
+    font-size:16px;
+    gap: 20px;
+}
+
+.post-it{
+    width: 400px;
+    height: 400px;
+    background: #f2f013;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 300px, 300px 100%, 0% 100%);
+    transition: 2s all;
+    transform-origin: top left;
+}
+
+.post-it2{
+    width: 400px;
+    height: 400px;
+    background: #18af18;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 300px, 300px 100%, 0% 100%);
+    transition: 2s all;
+    transform-origin: top left;
+}   
+
+.post-it3{
+    width: 400px;
+    height: 400px;
+    background: #af170d;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 300px, 300px 100%, 0% 100%);
+    transition: 2s all;
+    transform-origin: top left;
+}
+
+.post-it:hover{
+    transform: rotate(15deg);
+}
+
+.post-it2:hover{
+    transform: rotate(15deg);
+}
+
+.post-it3:hover{
+    transform: rotate(15deg);
+}
+
+
+.div1{
+    width: 100px;
+    height: 100px;
+    background: #d7d50c;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.div2{
+    width: 100px;
+    height: 100px;
+    background: #128d12;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.div3{
+    width: 100px;
+    height: 100px;
+    background: #721009;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.text{
+    font-size:250%;
+    font-weight:400;
+}
